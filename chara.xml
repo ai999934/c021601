@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <chara>
+    <name>鹿目まどか</name>
+    <locate>見滝原市</locate>
+    <date>１０月３日</date>
+</chara>
+<chara>
+    <name>古宮乃々香</name>
+    <locate>霧爺湖町</locate>
+    <date></date>
+</chara>
+<chara>
+    <name>ツルギ・タテワキ</name>
+    <locate></locate>
+    <date></date>
+</chara>
+<chara>
+    <name>古手梨花</name>
+    <locate>雛見沢</locate>
+    <date></date>
+</chara>
+<chara>
     <name></name>
     <locate></locate>
     <date></date>
