@@ -1,0 +1,14 @@
+        .global main
+main:   push    %ebp
+        push    %esp
+        push    %eax
+        movl    %esp,%ebp
+        movl    $0xbf800000,%eax
+        movl    %eax,%ebp
+        mov     $1,%al
+        mov     %al,(%ebp)
+        pop     %eax
+        pop     %esp
+        pop     %ebp
+        ret
+        
