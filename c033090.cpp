@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "glibw32.h"
+#include "glibw32.h" // External reference http://www.asahi-net.or.jp/~uc3k-ymd/Glib32/glibw32.html
 
 const int NUMBER = 180;
 const double PI = 3.141593;
@@ -22,7 +22,7 @@ main()
     GRAPH g;
     g.window(-PI, -PI, PI, PI);
     
-    // Wikipedia
+    // External reference Wikipedia
     D = -PI * cos(A) - 0 * sin(A); // line x (-PI, 0) - (PI, 0) -> rotate z
     E = -PI * sin(A) + 0 * cos(A);
     F =  PI * cos(A) - 0 * sin(A);
@@ -46,12 +46,12 @@ main()
             J = j + NUMBER;
             p = J * (PI / NUMBER);
             
-            x = R * cos(t) + r * cos(p) * cos(t); // Wikipedia
+            x = R * cos(t) + r * cos(p) * cos(t); // External reference Wikipedia
             y = R * sin(t) + r * cos(p) * sin(t);
             z = r * sin(p);
             
-            X = x * cos(A) - y * sin(A); // Wikipedia, rotate z
-            Y = x * sin(A) + y * cos(A); //            rotate z
+            X = x * cos(A) - y * sin(A); // External reference Wikipedia, rotate z
+            Y = x * sin(A) + y * cos(A); //                               rotate z
             
             g.pset(X, Y);
         }
